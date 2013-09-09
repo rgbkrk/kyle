@@ -17,7 +17,7 @@ if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist upload')
     sys.exit()
 
-packages = []
+packages = ['kyle']
 requires = []
 
 #with open('requirements.txt') as reqs:
